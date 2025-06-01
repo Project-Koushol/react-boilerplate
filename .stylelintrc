@@ -1,0 +1,45 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "block-no-empty": true,
+    "unit-no-unknown": true,
+    "property-no-unknown": true,
+    "selector-pseudo-element-colon-notation": "single",
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-order": [
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "z-index",
+      "display",
+      "flex",
+      "flex-direction",
+      "flex-wrap",
+      "align-items",
+      "justify-content",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "background",
+      "color",
+      "border",
+      "font",
+      "text-align",
+      "text-decoration"
+    ],
+    "prettier/prettier": true
+  }
+}
